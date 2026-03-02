@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* Container principal */
+.cv-container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden; /* gère les colonnes flottantes */
+}
+
+/* Titre */
+.cv-title {
+    text-align: center;
+    color: #1f6feb;
+    margin-bottom: 30px;
+}
+
+/* Colonnes */
+.section-left {
+    width: 35%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.section-right {
+    width: 60%;
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+}
+
+/* Titres de section */
+h2 {
+    border-bottom: 1px solid #1f6feb;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    color: #1f6feb;
+}
+
+/* Listes */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Paragraphes */
+p {
+    line-height: 1.5;
+}
+
+/* Centres d’intérêt */
+.interest {
+    background-color: #d9eaff;
+    padding: 5px;
+    margin: 3px 0;
+}
